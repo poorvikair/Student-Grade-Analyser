@@ -22,3 +22,30 @@ Class B stats:
   Mean:  75.4
   Max:   93
   Min:   45
+Apply a +5 mark curve to all scores (capping at 100) and print a full letter grade distribution.
+In this part you will
+
+Keep all output from Part 2
+Apply a +5 curve to the combined array using np.minimum(combined + 5, 100)
+Count how many curved scores fall into each band: A (>=90), B (75–89), C (60–74), F (<60)
+Print the grade distribution table and the new mean (1 decimal place)
+Example output
+
+Class A stats:
+  Mean:  78.2
+  Max:   96
+  Min:   55
+Class B stats:
+  Mean:  75.4
+  Max:   93
+  Min:   45
+Class A: 9/10 passed
+Class B: 9/10 passed
+Combined mean: 76.8
+Top score overall: 96
+Grade distribution after +5 curve:
+  A (90-100): 7
+  B (75-89):  8
+  C (60-74):  4
+  F (<60):    1
+New mean: 81.8
